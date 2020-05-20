@@ -1,0 +1,37 @@
+18/05/2020 : A faire pour rendre une premiere version fonctionnable:
+
+3 monstres
+
+3 classes : 3 sort chacun
+
+Combat automatique entre eux. 
+( chaque sort de classe sera  lancé aleatoirement.)
+_______________________________________________________________________
+
+19/05/2020 : A faire pour rendre une premiere version fonctionnable :
+
+- Finir les sorts "warrior", Check
+- Implanter le lancement aleatoir des sorts de classes.
+- Bug fix. Pendant les combats certaine fois des attaques peuvent encore attaqué une fois après la mort. ( joueur comme monstre ). Check
+
+________________________________________________________________________
+
+20/05/2020 : A faire pour rendre une premiere version fonctionnable : 
+
+- Bug fix CoupDechaine ne rentre pas dans sa condition. Check
+- Implanter le lancement aleatoir des sorts de classes.
+
+
+_______________________________________________________________________
+
+A faire pour avoir une version complete. 
+
+- Une interface graphique && afficher les valeurs des stats en js avec de la l'Ajax.
+- La possibilité de choisir les sort de classe que l'on veux lancer a chaque tour a l'aide de bouton.
+- Ameliorer les if dans l'attack des monstres ( trop volumineux, c'est moche ).
+- Intégré un systeme d'xp pour que les personnages gagne en puissance ainsi que les monstres et rndre le jeu de plus en plus difficile.
+- Intégrer un systeme de potion que l'on drop a chaque fin de combat(Cumulable). Utilisable a chaque tour. Rend un nombre flat de point de vie.
+- Intégré la possibilité de pouvoir combattre plusieur monstre, les uns apres les autres.
+- Intégré un score final sur combien de monstre on a tué et/ou un high score avec Mysql pour pouvoir enregistrer les joueurs et ce la comparer.
+
+- Eventuelement effectuer des nerfs et ups pour ameliorer le gameplay.
