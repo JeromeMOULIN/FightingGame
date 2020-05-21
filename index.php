@@ -2,17 +2,16 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Php objet</title>
-</head>
-<body>
+
+<?php include './models/head.html'; ?>
+
+<body class="flex column center">
     
-    <h1>Voici un simili rogue like crée en PHP orienté objet</h1>
-<!-- Formulaire qui sert a recuperer les premieres données du jeu. Le nom et la classe -->
-    <div>
-        <form action="./views/jeu.php" method="POST">
+    <!-- Formulaire qui sert a recuperer les premieres données du jeu. Le nom et la classe -->
+    <div class="flex column center">
+        <h1>Jeu de combat</h1>
+
+        <form action="./views/jeu.php" method="POST" class="flex column center">
         <p><label>Entrez le nom de votre personnage :<input type="text" name="charName"></label></p>
         <p><label>Choisissez votre classe :
             <select name="classes" id="1">
@@ -21,7 +20,7 @@
                 <option value="Heretique">Hérétic</option>
             </select>
         </label></p>
-        <p><input type="submit" value="JOUER"></p>
+        <p><input id='submit' type="submit" value="JOUER"></p>
         </form>
     </div>
 

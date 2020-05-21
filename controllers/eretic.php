@@ -32,13 +32,13 @@
         }
         public function abnegation(){
             $this->_abnegation = true;
-            echo 'Votre abnégation vous premet de reduire les degats subit.';
+            echo '<p>Votre abnégation vous premet de reduire les degats subit.</p>';
 
         }
         public function partage($enemie){
             $dmg = 6*$this->_magicPower;
             $enemie->setHealthPoint($dmg);
-            echo '<p>Vous attaqué votre enemie et lui infligé '.$dmg.' de damage! '.$enemie->_class.' a désormais '.$enemie->_healthPoint.' point de vie.</p>';
+            echo '<p>Vous attaqué votre enemie avec partage et lui infligé '.$dmg.' de damage! '.$enemie->_class.' a désormais '.$enemie->_healthPoint.' point de vie.</p>';
             $dmg = 2*$this->_magicPower;
             $this->setHealthPoint($dmg);
             echo '<p>En contrepartie vous vous infligé '.$dmg.' de damage. Vous avez désormais '.$this->_healthPoint.' point de vie.</p>';

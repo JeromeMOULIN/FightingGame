@@ -8,8 +8,8 @@
         public $_abnegation = false;
 
         public function reflet(){
-            $this->_mirror = true;
-            echo 'Vous avez lancé reflet';
+            $this->_dodge = true;
+            echo '<p>Vous avez lancé reflet</p>';
         }
         public function transparence($enemie){
             $dmg = 2*$this->_magicPower;

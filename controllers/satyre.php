@@ -5,7 +5,6 @@
         public $_ferocity = 15;
         public $_healthPoint = 110;
         
-        
     }
 
 ?>

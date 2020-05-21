@@ -38,9 +38,7 @@
                 }else{
                     // Check le buff abnégation de l'Hérétique.
                     if($character->_abnegation == true){
-                        echo '<p>'.$dmg.'</p>';
                         $dmg = $dmg -= 50;
-                        echo '<p>'.$dmg.'</p>';
                         if($dmg <= 0){
                             $dmg = 0;    
                         }
